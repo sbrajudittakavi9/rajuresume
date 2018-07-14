@@ -79,7 +79,7 @@ function skills(skillsInfo) {
         for (var j = 0; j < skillsInfo[i].info.length; j++) {
             var li = document.createElement("li");
             li.textContent = skillsInfo[i].info[j];
-           // skillsInfo[i].title = skillsInfo[j].info;
+            // skillsInfo[i].title = skillsInfo[j].info;
             ul.appendChild(li);
         }
     }
