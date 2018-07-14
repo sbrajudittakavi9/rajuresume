@@ -40,11 +40,14 @@ function career(careerInfo) {
     hd.textContent = "Career Objective";
     childTwo.appendChild(hd);
     var hr = document.createElement("hr");
+    var but = document.createElement("button");
+    but.value = "CareerInfo";
+    childTwo.appendChild(but);
     childTwo.appendChild(hr);
-    var careerP = document.createElement("p");//creating html elements
+    /*var careerP = document.createElement("p");//creating html elements
     careerP.textContent = careerInfo.info;
     childTwo.appendChild(careerP);
-
+*/
 }
 function education(educationInfo) {
     var hd = document.createElement("h4");
