@@ -1,0 +1,79 @@
+{
+    "basics": {
+        "name": "D S B RAJU",
+        "email": "sbrajudittakavi9@gmail.com",
+        "mobile": "+91 8074403432"
+    },
+    "career": {
+        "info": "to implement my skills and professional skills to u r company"
+    },
+    "education": [
+        {
+            "graduation": "B.TECH(CSE)",
+            "institute": "AIET",
+            "data": [
+                "2015-19",
+                "76%"
+            ]
+        },
+        {
+            "graduation": "INTERMEDIATE/DIPLOMO",
+            "institute": "SRI CHAITANYA JR COLLEGE",
+            "data": [
+                "2013-15",
+                "88%"
+            ]
+        },
+        {
+            "graduation": "S.S.C",
+            "institute": "BHASHYAM PUBLIC SCHOOL",
+            "data": [
+                "2012-13",
+                "90%"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "title": "Programming Languages",
+            "info": [
+                "C",
+                "C++",
+                "Java"
+            ]
+        },
+        {
+            "title": "Databases",
+            "info": [
+                "mongoDb",
+                "mmySql",
+                "Oracle"
+            ]
+        },
+        {
+            "title": "Web Technologies",
+            "info": [
+                "HTML5",
+                "CSS3",
+                "JavaScript"
+            ]
+        },
+        {
+            "title": "Libraries and Frameworks",
+            "info": [
+                "ionic",
+                "AngularJS",
+                "ExpressJs",
+                ".Net"
+            ]
+        },
+        {
+            "title": "Operating System",
+            "info": [
+                "Linux",
+                "Windows",
+                "DOS"
+            ]
+        }
+    ]
+}
