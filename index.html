@@ -4,22 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title></title>
+    <title>:: My Resume ::</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body>
+	<center> <button id="click" onclick="show()">View My Profile</button></center>
         
-    <div class="flexParent">
+    <div class="flexParent" id="parent" style="display:none">
         <div class="child1">
 
             <img src="images/immmg.jpeg" alt="profile">
             <h2>D Sai Butchi Raju</h2>
+            <p>(  Fresher  )</p>
             <hr>
-            <div>999999999</div>
-            <hr>
-            <a href="">https://mail.google.com</a>
+            <h3>999999999</h3>
+            <a href="mailto:raju123@gmail.com">raju123@gmail.com</a>
         </div>
 
         <div class="child2"></div>
@@ -28,3 +29,10 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+    function show(){
+        document.getElementById("click").style.display="none";
+        document.getElementById("parent").style.display="flex";
+    }
+</script>

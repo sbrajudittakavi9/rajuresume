@@ -53,8 +53,12 @@ function education(educationInfo) {
     childTwo.appendChild(hd);
     var hr = document.createElement("hr");
     childTwo.appendChild(hr);
+var div=document.createElement("div");
+div.classList.add("overflow");
+childTwo.appendChild(div);
+
     var tab = document.createElement("table");
-    childTwo.appendChild(tab);
+    div.appendChild(tab);
     tab.border = 1;
     var tr1 = "<tr><td>Graduation</td><td>Institute</td><td>Data</td></tr>";//anthor way of creating an html element   
     var tr2 = "";
@@ -71,7 +75,7 @@ function skills(skillsInfo) {
     childTwo.appendChild(hr);
 
     for (var i = 0; i < skillsInfo.length; i++) {
-        var titleH = document.createElement("h3");
+        var titleH = document.createElement("h5");
         titleH.textContent = skillsInfo[i].title;
         childTwo.appendChild(titleH);
         var ul = document.createElement("ul");
